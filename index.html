@@ -6,17 +6,12 @@
 		<link rel="icon" type="image/jpg" href="./files/favicon.jpg">
 	</head>
 	<body>
-		<font face="Arial">
 		<header id="top">
-			<center>
 			<h1>Meeting Minutes</h1>
 			<h2>Icecream flavors</h2>
 			<h3>April 14, 2024</h3>
-			</center>
 		</header>
-		<br>
-		<hr>
-		<br>
+		<br><hr><br>
 		<div>
 			<h3><strong>Attendance:</strong></h3>
 			<ul>
@@ -33,9 +28,9 @@
 			</ul>
 		</div>
 		<br>
-		<span>
+		<section>
 			<h3><strong>Agenda:</strong></h3>
-			<p>To come up with new icecream flavors for the summer season.</p>
+			<p>To come up with new <span>icecream flavors</span> for the summer season.</p>
 			<details>
 				<summary>Our current most popular flavors</summary>
 				<ol>
@@ -44,10 +39,8 @@
 					<li>Strawberry</li>
 				</ol>
 			</details>
-		</span>
-		<br>
-		<hr>
-		<br>
+		</section>
+		<br><hr><br>
 		<section>
 			<h3><strong>Previous unfinished business:</strong></h3>
 			<p>Approval of the new packaging for the <i>chocolate caramel</i> flavor.</p>
@@ -62,15 +55,13 @@
 				<input type="submit">
 			</form>
 		</section>
-		<br>
-		<hr>
-		<br>
+		<br><hr><br>
 		<section>
-			<img src="./files/diagram.jpeg" width="30%" height="30%">
+			<img src="./files/diagram.jpeg" width="30%" height="30%" alt="Picture of our diagram.">
 			<p>Diagram of our process in promoting the <em>cookies'n'cream</em> flavor.</p>
 			<br>
 			<h3><strong>Video of meeting:</strong></h3>
-			<video width="30%" height="30%">
+			<video controls width="30%" height="30%">
 				<source type="video/mp4" src="./files/video.mp4">
 				Your browser does not support the video tag.
 			</video>
@@ -81,9 +72,7 @@
 				Your browser does not support the audio element.
 			</audio>
 		</section>
-		<br>
-		<hr>
-		<br>
+		<br><hr><br>
 		<section>
 			<form>
 				<fieldset>
@@ -98,6 +87,29 @@
 						<option value="Rocky Road">
 					</datalist>
 					<input type="submit">
+					<br><br>
+					<label>Choose an icecream brand:</label>
+					<select>
+						<option>Häagen-Dazs</option>
+						<option>Ben & Jerry's</option>
+						<option>Dairy Queen</option>
+						<option>Magnum</option>
+					</select>
+					<input type="submit" value="Submit">
+					<br><br>
+					<label>Choose your favorite flavors from the list:</label><br>
+						<input type="checkbox"><label>Vanilla</label><br>
+						<input type="checkbox"><label>Chocolate</label><br>
+						<input type="checkbox"><label>Strawberry</label><br>
+					<input type="submit">
+					<br><br>
+					<label>Choose your favorite brand from the list:</label><br>
+						<label><input type="radio" name="brand">Häagen-Dazs</label><br>
+						<label><input type="radio" name="brand">Dairy Queen</label><br>
+						<label><input type="radio" name="brand">Magnum</label><br>
+					<input type="submit">
+					<br><br>
+					<button type="button">I like icecream!</button>
 				</fieldset>
 			</form>
 		</section>
@@ -105,8 +117,7 @@
 		<hr>
 		<br>
 		<footer>
-			<center><nav><a href="#top">BACK TO TOP</a></nav></center>
+			<nav><a href="#top">BACK TO TOP</a></nav>
 		</footer>
-		</font>
 	</body>
 </html>
