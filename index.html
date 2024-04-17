@@ -3,14 +3,14 @@
 	<head>
 		<title>UNIVERSITY OF CALIFORNIA, SAN DIEGO -- CSE110 GROUP 26</title>
 		<meta charset="utf-8">
-		<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+		<link rel="icon" type="image/jpg" href="./files/favicon.jpg">
 	</head>
 	<body>
 		<font face="Arial">
 		<header id="top">
 			<center>
 			<h1>Meeting Minutes</h1>
-			<h2>Icecream flavours</h2>
+			<h2>Icecream flavors</h2>
 			<h3>April 14, 2024</h3>
 			</center>
 		</header>
@@ -36,12 +36,14 @@
 		<span>
 			<h3><strong>Agenda:</strong></h3>
 			<p>To come up with new icecream flavors for the summer season.</p>
-			<p>Our current most popular flavors:</p>
-			<ol>
-				<li>Vanilla</li>
-				<li>Chocolate</li>
-				<li>Strawberry</li>
-			</ol>
+			<details>
+				<summary>Our current most popular flavors</summary>
+				<ol>
+					<li>Vanilla</li>
+					<li>Chocolate</li>
+					<li>Strawberry</li>
+				</ol>
+			</details>
 		</span>
 		<br>
 		<hr>
@@ -53,17 +55,57 @@
 			<h3><strong>New business:</strong></h3>
 			<p>Re-releasing the limited time <em>cookies'n'cream</em> flavor and whether it should become permanent.</p>
 			<br>
-			<h3><b>Misc. comments / questions / concerns:</b></h3>			
+			<h3><b>Misc. comments / questions / concerns:</b></h3>
+			<form>
+				<textarea rows="4" cols="50" placeholder="Enter your inquiry here"></textarea>
+				<br>
+				<input type="submit">
+			</form>
+		</section>
+		<br>
+		<hr>
+		<br>
+		<section>
+			<img src="./files/diagram.jpeg" width="30%" height="30%">
+			<p>Diagram of our process in promoting the <em>cookies'n'cream</em> flavor.</p>
+			<br>
+			<h3><strong>Video of meeting:</strong></h3>
+			<video width="30%" height="30%">
+				<source type="video/mp4" src="./files/video.mp4">
+				Your browser does not support the video tag.
+			</video>
+			<br>
+			<h3><strong>Audio of meeting:</strong></h3>
+			<audio controls>
+				<source type="audio/mp3" src="./files/audio.mp3">
+				Your browser does not support the audio element.
+			</audio>
+		</section>
+		<br>
+		<hr>
+		<br>
+		<section>
+			<form>
+				<fieldset>
+					<legend>Icecream</legend>
+					<label>Choose your favorite flavor from the list:</label>
+					<input list="flavours">
+					<datalist id="flavours">
+						<option value="Vanilla">
+						<option value="Chocolate">
+						<option value="Strawberry">
+						<option value="Cookies and Cream">
+						<option value="Rocky Road">
+					</datalist>
+					<input type="submit">
+				</fieldset>
+			</form>
 		</section>
 		<br>
 		<hr>
 		<br>
 		<footer>
-			<h3><strong>Video of meeting:</strong></h3>
-			<br>
-			<h3><strong>Audio of meeting:</strong></h3>
-			<br>
-			<nav><a href="#top">Back to top</a></nav>
+			<center><nav><a href="#top">BACK TO TOP</a></nav></center>
 		</footer>
 		</font>
 	</body>
